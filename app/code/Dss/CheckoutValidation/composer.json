@@ -1,0 +1,25 @@
+{
+    "name": "dss/m2-checkout-namefields-validation",
+    "description": "Dss checkout NameFields validation Module",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Extension Team",
+            "email": "info@digitsoftsol.com",
+            "homepage": "https://www.digitsoftsol.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dss\\CheckoutValidation\\": ""
+        }
+    }
+}
